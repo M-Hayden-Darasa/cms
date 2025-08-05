@@ -1,0 +1,40 @@
+{
+  "sign-in": "Sign in",
+  "remember-your-password": "Remember your passsowrd?",
+  "already-have-an-account": "Already have an account?",
+  "passwords-do-not-match": "Passwords do not match",
+  "confirm-password": "Confirm password",
+  "enter-your-confirm-password": "Enter your confirm password",
+  "please-enter-your-confirm-password": "Please enter your confirm password",
+  "password": "Password",
+  "enter-your-password": "Enter your password",
+  "please-enter-your-password": "Please enter your password",
+  "password-is-not-formatted-correctly": "Password is not formatted correctly.",
+
+  "enter-email": {
+    "please-enter-your-email": "Please enter your email",
+    "email-address-is-not-formatted-correctly": "Email address is not formatted correctly.",
+    "email": "Email",
+    "enter-your-email": "Enter your email",
+    "forgot-password": "Forgot password",
+    "send": "Send",
+    "reset-your-password": "Reset your password",
+    "please-enter-your-email-address": "Please enter your email address. You will receive a link to create a new password via email."
+  },
+
+  "verify-code": {
+    "verify-code": "Verify code",
+    "verify": "Verify",
+    "otp-code": "OTP code",
+    "verification": "Verification",
+    "we-have-sent": "We have sent on OTP code to your email {{email}} Enter the OTP code below to verify.",
+    "did-receive-code": "Didn't receive Code?",
+    "resend-otp": "Resend OTP",
+    "please-enter-your-code": "Please enter your code",
+    "code-expires-in": "Code expires in"
+  },
+
+  "create-new-password": {
+    "create-new-password": "Create new password"
+  }
+}

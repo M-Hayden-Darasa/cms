@@ -1,0 +1,23 @@
+:root {
+  /* font-family: system-ui, Avenir, Helvetica, Arial, sans-serif; */
+  width: 100vw;
+  height: 100vh;
+}
+
+@font-face {
+  font-family: 'Open Sans', sans-serif;
+  src: url('./assets/font/open_sans/OpenSans-Light.ttf') format('truetype');
+}
+
+body {
+  margin: 0;
+  padding: 0px;
+  min-width: 100vw;
+  min-height: 100vh;
+}
+
+#root {
+  width: 100vw;
+  min-height: 100vh;
+  height: 100%;
+}

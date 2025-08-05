@@ -1,0 +1,17 @@
+{
+  "please-enter-your-email": "Please enter your email",
+  "email-address-is-not-formatted-correctly": "Email address is not formatted correctly.",
+  "password-is-not-formatted-correctly": "Password is not formatted correctly.",
+  "email": "Email",
+  "enter-your-email": "Enter your email",
+  "password": "Password",
+  "enter-your-password": "Enter your password",
+  "remember-me": "Remember me",
+  "forgot-password": "Forgot password?",
+  "sign-in": "Sign in",
+  "dont-have-an-account": "Don't have an account?",
+  "create-account": "Create account",
+  "or": "or",
+  "sign-in-with-google": "Sign in with Google",
+  "please-enter-your-password": "Please enter your password"
+}

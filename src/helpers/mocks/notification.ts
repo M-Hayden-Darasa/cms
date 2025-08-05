@@ -1,0 +1,103 @@
+import type { NotificationInterface } from '@/models/notification.model'
+import { NotificationStatusEnums, NotificationTypeEnums } from '../enums/notification'
+
+const mockupNotifications: NotificationInterface[] = [
+  {
+    id: 1,
+    type: NotificationTypeEnums?.COMMENT,
+    user: 'Amélie',
+    context: 'Dashboard 2.0',
+    time: 'Friday 3:12 PM',
+    relativeTime: '2 hours ago',
+    message:
+      'Really love this approach. I think this is the best solution for the document sync UX issue.',
+    status: NotificationStatusEnums?.READ,
+  },
+  {
+    id: 2,
+    type: NotificationTypeEnums?.FOLLOW,
+    user: 'Sienna',
+    time: 'Friday 3:04 PM',
+    relativeTime: '2 hours ago',
+    status: NotificationStatusEnums?.UN_READ,
+  },
+  {
+    id: 3,
+    type: NotificationTypeEnums?.COMMENT,
+    user: 'Liam',
+    context: 'Bug Tracker',
+    time: 'Friday 2:45 PM',
+    relativeTime: '3 hours ago',
+    message: '@Hayden.FE check out the issue with the dropdown not rendering correctly on mobile.',
+    status: NotificationStatusEnums?.READ,
+  },
+  {
+    id: 4,
+    type: NotificationTypeEnums?.COMMENT,
+    user: 'Noah',
+    context: 'Design Review',
+    time: 'Friday 2:30 PM',
+    relativeTime: '3 hours ago',
+    message: 'The new color palette feels much more modern. Great job!',
+    status: NotificationStatusEnums?.UN_READ,
+  },
+  {
+    id: 5,
+    type: NotificationTypeEnums?.FOLLOW,
+    user: 'Isla',
+    time: 'Friday 2:15 PM',
+    relativeTime: '4 hours ago',
+    status: NotificationStatusEnums?.READ,
+  },
+  {
+    id: 6,
+    type: NotificationTypeEnums?.MENTION,
+    user: 'Ethan',
+    context: 'Sprint Planning',
+    time: 'Friday 1:50 PM',
+    relativeTime: '4 hours ago',
+    message: 'We should consider moving the API refactor to next sprint due to current workload.',
+    status: NotificationStatusEnums?.UN_READ,
+  },
+  {
+    id: 7,
+    type: NotificationTypeEnums?.COMMENT,
+    user: 'Chloe',
+    context: 'Release Notes',
+    time: 'Friday 1:30 PM',
+    relativeTime: '5 hours ago',
+    message: '@Hayden.FE can you confirm the final changelog for v2.1?',
+    status: NotificationStatusEnums?.READ,
+  },
+  {
+    id: 8,
+    type: NotificationTypeEnums?.COMMENT,
+    user: 'Mason',
+    context: 'User Feedback',
+    time: 'Friday 1:10 PM',
+    relativeTime: '5 hours ago',
+    message:
+      'Users are reporting lag in the chat module. Might be worth profiling the socket events.',
+    status: NotificationStatusEnums?.UN_READ,
+  },
+  {
+    id: 9,
+    type: NotificationTypeEnums?.COMMENT,
+    user: 'Ava',
+    time: 'Friday 12:55 PM',
+    relativeTime: '6 hours ago',
+    status: NotificationStatusEnums?.UN_READ,
+  },
+  {
+    id: 10,
+    type: NotificationTypeEnums?.FOLLOW,
+    user: 'Lucas',
+    context: 'Analytics Dashboard',
+    time: 'Friday 12:30 PM',
+    relativeTime: '6 hours ago',
+    message: 'The new funnel visualization is super helpful. Can we add export to CSV?',
+    status: NotificationStatusEnums?.READ,
+  },
+]
+
+export { mockupNotifications }
